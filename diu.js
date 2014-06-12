@@ -1,4 +1,4 @@
-(function(global){
+(function(){
 	global.屌 = function( obj, methodName ){
 		if( !methodName ){
 			return obj;
@@ -10,7 +10,7 @@
 		return obj[methodName];
 	};
 
-	['老味','鳩','啦','仆街'].forEach( function(valName){
+	['老味','鳩','啦','仆街','撚'].forEach( function(valName){
 		Object.defineProperty( Object.prototype, valName,{
 			get : function(){
 				return this;
@@ -21,5 +21,4 @@
 	global.頂 = function( shit ){
 		throw shit;
 	}
-
-})(this);
+})();
