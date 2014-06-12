@@ -1,4 +1,10 @@
-爲呢個本來已經好多粗口嘅語言再加多啲粗口。
+#爲呢個本來已經好多粗口嘅語言再加多啲粗口。
+
+```
+require('diu')
+//or
+<script src="diu.js"></script>
+```
 
 因爲: `屌(a) === a //true`
 所以你可以咁樣發泄：
@@ -46,3 +52,6 @@ user.echo.啦.仆街() // return accessor function
 ```javascript
 頂(err)  // throw err
 ```
+
+
+(唔夠膽擺上npm)
