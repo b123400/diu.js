@@ -6,8 +6,13 @@
   "scripts":{
     "test": "mocha -R spec ./test/test.js"
   },
+  "dependencies": {},
   "devDependencies":{
-    "mocha":"~1.20"
+    "mocha":"~1.20.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
   },
   "repository": {
     "type": "git",
