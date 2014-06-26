@@ -10,16 +10,9 @@
   "devDependencies":{
     "mocha":"~1.20.0"
   },
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.1.x"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/b123400/diu.js"
   },
-  "keywords": [
-    "屌"
-  ],
   "license" : "WTFPL"
 }
