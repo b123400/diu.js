@@ -1,4 +1,5 @@
 (function(){
+	global=this
 	global.屌 = function( obj, methodName ){
 		if( !methodName ){
 			return obj;
