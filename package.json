@@ -1,0 +1,20 @@
+{
+  "name":"diu.js",
+  "version":"0.0.0",
+  "description":"爲呢個本來已經好多粗口嘅語言再加多啲粗口。",
+  "author":"b123400 <b123400@gmail.com>",
+  "scripts":{
+    "test": "mocha -R spec ./test/test.js"
+  },
+  "devDependencies":{
+    "mocha":"~1.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b123400/diu.js"
+  },
+  "keywords": [
+    "屌"
+  ],
+  "license" : "WTFPL"
+}
