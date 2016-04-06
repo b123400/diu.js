@@ -4,7 +4,7 @@
 		if( !methodName ){
 			return obj;
 		}
-		methodName = methodName.replace(/[^a-zA-Z0-9\-]/g,'')
+		methodName = methodName.replace(/[^a-zA-Z0-9$_\-]/g,'')
 		if ( typeof obj[methodName] === "function" ){
 			return obj[methodName].bind(obj);
 		}
